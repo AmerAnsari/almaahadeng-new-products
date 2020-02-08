@@ -15,13 +15,17 @@ a {
     text-decoration: none !important;
 }
 
+main {
+    background-color: #eee;
+}
+
 section {
     transition: ease-in-out all 0.4s;
     background-color: #fff;
 }
 
 section:hover {
-    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 [img] {
@@ -41,7 +45,7 @@ section:hover {
 }
 
 .bg-landing {
-    background-image: url("/app/assest/images/Crusher-Bucket/16.jpg");
+    background-image: url("/app/assest/images/bg-landing.jpg");
 }
 
 .cover {
@@ -57,24 +61,20 @@ section:hover {
     font-size: 60px;
 }
 
-.main {
-    background-color: #edeef0;
-}
-
 .aplications {
     font-size: 16px;
 }
 
 .aplications-margin {
-    margin-top: 45px;
+    margin-top: 39px;
 }
 
 .collapse-m-1 {
-    margin-top: 35px;
+    margin-top: 33px;
 }
 
-.collapse-m-4 {
-    margin-top: 55px;
+.s4-m {
+    margin-top: 54px;
 }
 
 .primary {
@@ -82,20 +82,29 @@ section:hover {
 }
 
 .card-header {
+    padding: 18px;
+    color: #ff8100 !important;
+    transition: ease-in-out all 0.3s;
     border-radius: 0;
     border-bottom: none;
 }
 
 .card-header:hover {
+    color: white !important;
+    background-color: #646464;
     cursor: pointer;
 }
 
 /* Collapse arrow */
 
 .collapse-arrow {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 0;
     -webkit-animation: minus 0.5s;
+}
+
+i {
+    margin-top: 5px;
 }
     
 @keyframes minus {
@@ -149,23 +158,41 @@ tbody tr:hover {
 }
 
 .small-th {
-    font-size: 8px !important;
+    font-size: 10px !important;
 }
 
-.small-th-1{
+.small-th-1 {
     font-size: 12px !important;
 }
 
-.small-th-2{
+.small-th-2 {
     font-size: 9px !important;
 }
 
-.drawing {
+.drawing1 {
+    padding: 40px 40px;
+    width: 100%;
+    height: 425px;
+}
+
+.drawing2 {
+    padding: 40px 40px;
     width: 100%;
     height: 400px;
 }
 
-.drawing1 {
+.drawing3 {
+    padding: 40px 40px;
     width: 100%;
+    height: 400px;
+}
+
+.drawing4 {
+    padding: 40px 40px;
+    width: 100%;
+    height: 240px;
+}
+
+footer {
     height: 400px;
 }
