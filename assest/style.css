@@ -170,25 +170,24 @@ tbody tr:hover {
 }
 
 .drawing1 {
-    padding: 40px 40px;
+    padding: 60px;
     width: 100%;
     height: 425px;
 }
 
 .drawing2 {
-    padding: 40px 40px;
+    padding: 40px;
     width: 100%;
     height: 400px;
 }
 
 .drawing3 {
-    padding: 40px 40px;
+    padding: 60px;
     width: 100%;
     height: 400px;
 }
 
 .drawing4 {
-    padding: 40px 40px;
     width: 100%;
     height: 240px;
 }
