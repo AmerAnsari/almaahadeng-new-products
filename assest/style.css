@@ -195,3 +195,25 @@ tbody tr:hover {
 footer {
     height: 400px;
 }
+
+.spr {
+    padding-right: 9px;
+}
+
+.spl {
+    padding-left: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+    .smt {
+        margin-top: 16px;
+    }
+
+    .spr {
+        padding-right: 15px;
+    }
+    
+    .spl {
+        padding-left: 15px;
+    }
+}
