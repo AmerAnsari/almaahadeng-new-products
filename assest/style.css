@@ -44,10 +44,6 @@ section:hover {
     font-weight: 600;
 }
 
-.bg-landing {
-    background-image: url("assest/images/bg-landing.jpg");
-}
-
 .cover {
     padding: 150px 0 0 0;
     color: #fff;
