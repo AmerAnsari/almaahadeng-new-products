@@ -170,9 +170,9 @@ tbody tr:hover {
 }
 
 .drawing1 {
-    padding: 60px;
     width: 100%;
     height: 425px;
+    padding: 60px;
 }
 
 .drawing2 {
@@ -184,12 +184,11 @@ tbody tr:hover {
 .drawing3 {
     padding: 60px;
     width: 100%;
-    height: 400px;
+    height: 420px;
 }
 
 .drawing4 {
     width: 100%;
-    height: 240px;
 }
 
 footer {
@@ -204,7 +203,7 @@ footer {
     padding-left: 9px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .smt {
         margin-top: 16px;
     }
