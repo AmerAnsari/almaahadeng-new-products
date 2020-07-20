@@ -16,10 +16,6 @@ gulp.task('clean', () => {
 
 // BUILD
 
-gulp.task('build:node', () => {
-  return gulp.src(['node_modules/bootstrap.native/dist/bootstrap-native.js']).pipe(gulp.dest('dist/asset/'));
-});
-
 gulp.task('build:styles', () => {
   return gulp.src('src/asset/**/*.scss')
     // Compile SASS files
@@ -56,7 +52,13 @@ gulp.task('build:images', () => {
   return gulp.src(['src/asset/img/**/*']).pipe(gulp.dest('dist/asset/img'));
 });
 
-gulp.task('build', gulp.series('clean', 'build:node', 'build:styles', 'build:scripts', 'build:html', 'build:images'));
+gulp.task('build:node', () => {
+  return gulp.src('node_modules/bootstrap.native/dist/bootstrap-native.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/asset/'));
+});
+
+gulp.task('build', gulp.series('clean', 'build:styles', 'build:scripts', 'build:html', 'build:images', 'build:node'));
 
 // SERVE
 
